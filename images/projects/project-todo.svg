@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="todo-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8F9F7" />
+      <stop offset="100%" stop-color="#E8EFEA" />
+    </linearGradient>
+    <filter id="card-shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#1E232A" flood-opacity="0.08" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="360" fill="url(#todo-bg)" />
+
+  <!-- App Window Container -->
+  <g transform="translate(60, 40)" filter="url(#card-shadow)">
+    <!-- Browser Header -->
+    <rect width="480" height="280" rx="14" fill="#FFFFFF" stroke="#E2E6E1" stroke-width="1.5" />
+    <path d="M0 14 Q0 0 14 0 L466 0 Q480 0 480 14 L480 40 L0 40 Z" fill="#F4F6F4" />
+    <circle cx="24" cy="20" r="5" fill="#CBD5E1" />
+    <circle cx="42" cy="20" r="5" fill="#94A3B8" />
+    <circle cx="60" cy="20" r="5" fill="#769680" />
+
+    <text x="240" y="24" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="600" fill="#2D3748">To-Do List Web App</text>
+
+    <!-- App Content Inside -->
+    <!-- Input Box -->
+    <rect x="35" y="58" width="310" height="34" rx="8" fill="#F8F9F7" stroke="#CBD8CF" stroke-width="1.5" />
+    <text x="50" y="80" font-family="'Segoe UI', sans-serif" font-size="12" fill="#7E8B9B">Add a new task...</text>
+    
+    <!-- Add Task Button (Sage Green) -->
+    <rect x="360" y="58" width="85" height="34" rx="8" fill="#769680" />
+    <text x="402" y="79" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="600" fill="#FFFFFF">+ Add</text>
+
+    <!-- Task Item 1 (Completed) -->
+    <g transform="translate(35, 110)">
+      <rect width="410" height="38" rx="8" fill="#F8F9F7" stroke="#E2E6E1" stroke-width="1" />
+      <circle cx="24" cy="19" r="8" fill="#769680" />
+      <path d="M20 19 L23 22 L28 16" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" />
+      <text x="44" y="23" font-family="'Segoe UI', sans-serif" font-size="13" fill="#8E99A8" text-decoration="line-through">Revise Computer Science Data Structures</text>
+      <rect x="360" y="10" width="38" height="18" rx="4" fill="#E8EFEA" />
+      <text x="379" y="22" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="9" font-weight="600" fill="#3B5844">Done</text>
+    </g>
+
+    <!-- Task Item 2 (Pending) -->
+    <g transform="translate(35, 160)">
+      <rect width="410" height="38" rx="8" fill="#FFFFFF" stroke="#E2E6E1" stroke-width="1.5" />
+      <circle cx="24" cy="19" r="8" fill="#FFFFFF" stroke="#769680" stroke-width="2" />
+      <text x="44" y="23" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="500" fill="#1E232A">Build clean portfolio in Charcoal, Off-White &amp; Sage</text>
+      <rect x="345" y="10" width="53" height="18" rx="4" fill="#F4F7F5" stroke="#CBD8CF" stroke-width="1" />
+      <text x="371" y="22" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="9" font-weight="600" fill="#4B6A54">Pending</text>
+    </g>
+
+    <!-- Task Item 3 (Pending) -->
+    <g transform="translate(35, 210)">
+      <rect width="410" height="38" rx="8" fill="#FFFFFF" stroke="#E2E6E1" stroke-width="1.5" />
+      <circle cx="24" cy="19" r="8" fill="#FFFFFF" stroke="#769680" stroke-width="2" />
+      <text x="44" y="23" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="500" fill="#1E232A">Prepare for upcoming internship interview</text>
+      <rect x="345" y="10" width="53" height="18" rx="4" fill="#F4F7F5" stroke="#CBD8CF" stroke-width="1" />
+      <text x="371" y="22" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="9" font-weight="600" fill="#4B6A54">Pending</text>
+    </g>
+  </g>
+</svg>

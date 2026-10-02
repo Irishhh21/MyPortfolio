@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ralph-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EBF1ED" />
+      <stop offset="100%" stop-color="#D7E3DA" />
+    </linearGradient>
+    <linearGradient id="charcoal-hair" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2D3748" />
+      <stop offset="100%" stop-color="#1A202C" />
+    </linearGradient>
+    <linearGradient id="jacket-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#28323E" />
+      <stop offset="100%" stop-color="#1B222B" />
+    </linearGradient>
+    <filter id="soft-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#1E232A" flood-opacity="0.12" />
+    </filter>
+  </defs>
+
+  <!-- Background Circle with Sage & Off-White -->
+  <circle cx="200" cy="200" r="185" fill="url(#ralph-bg)" filter="url(#soft-shadow)" />
+  <circle cx="200" cy="200" r="175" fill="#FAFAF8" />
+
+  <!-- Code brackets subtle watermark in Sage -->
+  <text x="55" y="160" font-family="'Courier New', monospace" font-size="44" font-weight="bold" fill="#B3C8BA" opacity="0.6">&lt;/&gt;</text>
+  <text x="290" y="240" font-family="'Courier New', monospace" font-size="42" font-weight="bold" fill="#C2D4C8" opacity="0.8">{ ; }</text>
+
+  <!-- Ralph Avatar Portrait -->
+  <g transform="translate(0, 15)">
+    <!-- Hair Back -->
+    <path d="M142 165 C135 110 160 85 200 85 C240 85 265 110 258 165 Z" fill="url(#charcoal-hair)" />
+
+    <!-- Torso / Charcoal Jacket & Sage Hoodie -->
+    <path d="M105 375 C115 305 155 285 200 285 C245 285 285 305 295 375 C300 390 100 390 105 375 Z" fill="url(#jacket-grad)" />
+    
+    <!-- Sage Green Inner Shirt / Collar -->
+    <path d="M165 285 L200 335 L235 285 Z" fill="#769680" />
+    <path d="M178 285 L200 315 L222 285 Z" fill="#F8F9F7" />
+
+    <!-- Jacket Lapels / Details in Charcoal -->
+    <path d="M165 285 L180 375 L160 375 Z" fill="#1A202C" opacity="0.4" />
+    <path d="M235 285 L220 375 L240 375 Z" fill="#1A202C" opacity="0.4" />
+
+    <!-- Neck -->
+    <rect x="183" y="235" width="34" height="55" rx="6" fill="#F5D0C0" />
+    <path d="M183 260 C191 270 209 270 217 260 L217 285 L183 285 Z" fill="#E8BBA8" opacity="0.6"/>
+
+    <!-- Head / Face -->
+    <ellipse cx="200" cy="190" rx="52" ry="62" fill="#FCE2D6" />
+
+    <!-- Modern Short Hair (Front & Texture) in Charcoal -->
+    <path d="M142 170 C140 115 165 90 200 90 C235 90 258 115 258 170 C250 145 240 135 220 138 C198 141 185 130 165 142 C150 152 145 160 142 170 Z" fill="url(#charcoal-hair)" />
+    <!-- Hair fringe strands -->
+    <path d="M175 125 Q190 145 205 135 Q185 130 175 125 Z" fill="#3D495C" />
+    <path d="M210 130 Q225 145 238 135 Q225 130 210 130 Z" fill="#3D495C" />
+
+    <!-- Modern Charcoal Eyeglasses -->
+    <rect x="162" y="174" width="31" height="23" rx="6" fill="none" stroke="#222831" stroke-width="3" />
+    <rect x="207" y="174" width="31" height="23" rx="6" fill="none" stroke="#222831" stroke-width="3" />
+    <line x1="193" y1="185" x2="207" y2="185" stroke="#222831" stroke-width="3" />
+    <path d="M162 181 L148 177" stroke="#222831" stroke-width="2.5" />
+    <path d="M238 181 L252 177" stroke="#222831" stroke-width="2.5" />
+
+    <!-- Eyes (Behind Glasses) -->
+    <ellipse cx="177.5" cy="185.5" rx="3.5" ry="3.5" fill="#1E232A" />
+    <ellipse cx="222.5" cy="185.5" rx="3.5" ry="3.5" fill="#1E232A" />
+    <circle cx="178.5" cy="184" r="1.2" fill="#FFFFFF" />
+    <circle cx="223.5" cy="184" r="1.2" fill="#FFFFFF" />
+
+    <!-- Eyebrows in Charcoal -->
+    <path d="M164 168 Q177 163 189 168" stroke="#1E232A" stroke-width="2.8" fill="none" stroke-linecap="round" />
+    <path d="M211 168 Q223 163 236 168" stroke="#1E232A" stroke-width="2.8" fill="none" stroke-linecap="round" />
+
+    <!-- Friendly Smile -->
+    <path d="M188 216 Q200 226 212 216" stroke="#2D3748" stroke-width="2.5" fill="none" stroke-linecap="round" />
+  </g>
+
+  <!-- Sage Accent Geometric Stars -->
+  <path d="M315 105 Q315 118 328 118 Q315 118 315 131 Q315 118 302 118 Q315 118 315 105 Z" fill="#769680" />
+  <circle cx="95" cy="245" r="4" fill="#9CB8A4" />
+  <circle cx="310" cy="280" r="5" fill="#B8CDBC" />
+  <path d="M85 110 Q85 120 95 120 Q85 120 85 130 Q85 120 75 120 Q85 120 85 110 Z" fill="#769680" opacity="0.75" />
+</svg>

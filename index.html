@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Ralph - Computer Science Student & Aspiring Junior Web Developer based in the Philippines.">
+  <title>Ralph | Computer Science Student & Aspiring Web Developer</title>
+
+  <!-- Google Fonts for Clean, Modern Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css?v=20261002-about-photo">
+</head>
+<body>
+
+  <!-- ================================================================= -->
+  <!-- 1. NAVIGATION BAR                                                 -->
+  <!-- ================================================================= -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <!-- Logo / Name -->
+      <a href="#home" class="logo" aria-label="Ralph's Portfolio Home">
+        <span class="logo-name">Ralph</span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active-link">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#resume" class="nav-link">Resume</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav Actions: Theme Toggle + Mobile Hamburger -->
+      <div class="nav-actions">
+        <!-- Theme Toggle Button -->
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle dark mode" title="Toggle theme">
+          <!-- Sun Icon -->
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <!-- Moon Icon -->
+          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <!-- Mobile Hamburger Toggle -->
+        <button id="nav-toggle" class="nav-toggle-btn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- =============================================================== -->
+    <!-- 2. HERO SECTION                                                 -->
+    <!-- =============================================================== -->
+    <section class="hero section" id="home">
+      <div class="container hero-container">
+        <!-- Hero Text / Content -->
+        <div class="hero-content reveal">
+          <h1 class="hero-title">
+            Hi, I'm <span class="highlight-text">Ralph</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            Computer Science Student &amp; Aspiring Web Developer
+          </p>
+
+          <p class="hero-description">
+            I'm passionate about web development and creating practical software solutions. 
+            I'm continuously learning and improving my skills in front-end and back-end development.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View My Projects</a>
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+          </div>
+
+          <!-- Quick Social Links in Hero -->
+          <div class="hero-socials">
+            <a href="https://github.com/Ralphyy9yy" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub Profile">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+            </a>
+            <a href="https://facebook.com/[YOUR_FACEBOOK]" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Facebook Profile">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+            </a>
+            <a href="mailto:giannralph@gmail.com" class="social-link" aria-label="Email Ralph">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Profile Image / Visual -->
+        <div class="hero-image-wrapper reveal">
+          <div class="hero-image-card">
+            <!-- Portrait with the original circular frame and decorative symbols -->
+            <img src="images/profile-photo.svg" alt="Portrait of Ralph, Computer Science student" class="hero-img" id="hero-profile-img">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============================================================== -->
+    <!-- 3. ABOUT ME SECTION                                             -->
+    <!-- =============================================================== -->
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">About Me</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">Get to know more about my background, passion, and aspirations</p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Left: Profile Photo / Card -->
+          <div class="about-media reveal">
+            <div class="about-card-frame">
+              <img src="images/profile-photo.svg?v=about-portrait-2" alt="Ralph profile photo" class="about-img">
+              <div class="about-frame-badge">
+                <span>&#128187; Developer</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Bio + Quick Facts Card -->
+          <div class="about-content reveal">
+            <h3 class="about-heading">Building intuitive, efficient digital experiences</h3>
+            
+            <p class="about-text">
+              Hello! I’m Ralph, a Full-Stack Web Developer with around 3 years of hands-on experience building modern web applications and software solutions. My experience started with HTML, CSS, and JavaScript and has grown into building full-stack applications using React, Next.js, Node.js, Tailwind CSS, and MySQL.
+            </p>
+
+            <p class="about-text">
+              I enjoy turning ideas and requirements into clean, responsive, and user-friendly applications, while also working on the backend, APIs, databases, and overall system functionality. I also use AI coding tools like Claude Code, ChatGPT/Codex, and GitHub Copilot to help me develop faster, debug issues, and improve my code while making sure I review and test the results myself.
+            </p>
+
+            <p class="about-text">
+              I’m continuously improving my skills in modern web development and I’m excited to contribute to a team where I can build real-world products, learn quickly, and take ownership of my work.
+            </p>
+
+            <!-- Quick Information Card -->
+            <div class="info-card">
+              <h4 class="info-card-title">Quick Information</h4>
+              <ul class="info-list">
+                <li class="info-item">
+                  <span class="info-label">Course:</span>
+                  <span class="info-value">Bachelor of Science in Computer Science</span>
+                </li>
+                <li class="info-item">
+                  <span class="info-label">Role:</span>
+                  <span class="info-value">Student / Aspiring Junior Developer</span>
+                </li>
+                <li class="info-item">
+                  <span class="info-label">Focus:</span>
+                  <span class="info-value">Web Development (Front-end &amp; Back-end)</span>
+                </li>
+                <li class="info-item">
+                  <span class="info-label">Location:</span>
+                  <span class="info-value">Philippines</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============================================================== -->
+    <!-- 4. SKILLS SECTION                                               -->
+    <!-- =============================================================== -->
+    <section class="skills section" id="skills">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">Technical Skills</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">Technologies and developer tools I actively learn and work with</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Skill Category: Frontend -->
+          <div class="skill-category-card reveal">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+              </div>
+              <h3 class="skill-cat-title">Frontend</h3>
+            </div>
+            <ul class="skill-pill-list">
+              <li class="skill-pill">
+                <span class="pill-dot"></span>HTML5
+              </li>
+              <li class="skill-pill">
+                <span class="pill-dot"></span>CSS3
+              </li>
+              <li class="skill-pill">
+                <span class="pill-dot"></span>JavaScript (ES6+)
+              </li>
+              <li class="skill-pill">
+                <span class="pill-dot"></span>React
+              </li>
+              <li class="skill-pill">
+                <span class="pill-dot"></span>TypeScript
+              </li>
+            </ul>
+          </div>
+
+          <!-- Skill Category: Backend -->
+          <div class="skill-category-card reveal">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
+              </div>
+              <h3 class="skill-cat-title">Backend</h3>
+            </div>
+            <ul class="skill-pill-list">
+              <li class="skill-pill">
+                <span class="pill-dot"></span>PHP
+              </li>
+              <li class="skill-pill">
+                <span class="pill-dot"></span>Laravel
+              </li>
+              <li class="skill-pill">
+                <span class="pill-dot"></span>Node.js
+              </li>
+              <li class="skill-pill">
+                <span class="pill-dot"></span>REST APIs
+              </li>
+            </ul>
+          </div>
+
+          <!-- Skill Category: Database -->
+          <div class="skill-category-card reveal">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+              </div>
+              <h3 class="skill-cat-title">Database</h3>
+            </div>
+            <ul class="skill-pill-list">
+              <li class="skill-pill">
+                <span class="pill-dot"></span>MySQL
+              </li>
+              <li class="skill-pill">
+                <span class="pill-dot"></span>SQLite
+              </li>
+            </ul>
+          </div>
+
+          <!-- Skill Category: Tools -->
+          <div class="skill-category-card reveal">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+              </div>
+              <h3 class="skill-cat-title">Tools &amp; Workflow</h3>
+            </div>
+            <ul class="skill-pill-list">
+              <li class="skill-pill">
+                <span class="pill-dot"></span>VS Code
+              </li>
+              <li class="skill-pill">
+                <span class="pill-dot"></span>Git
+              </li>
+              <li class="skill-pill">
+                <span class="pill-dot"></span>GitHub
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============================================================== -->
+    <!-- 5. PROJECTS SECTION                                             -->
+    <!-- =============================================================== -->
+    <section class="projects section" id="projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">Featured Projects</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">Academic and personal projects demonstrating my web development skills</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: To-Do List Web Application -->
+          <article class="project-card reveal">
+            <div class="project-img-wrapper">
+              <img src="images/projects/project-todo.svg" alt="Screenshot mockup of To-Do List Web Application" class="project-img">
+              <div class="project-overlay-tag">Front-End Project</div>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">To-Do List Web Application</h3>
+              
+              <p class="project-desc">
+                A simple and responsive task management application that allows users to add, complete, filter, and delete tasks efficiently.
+              </p>
+
+              <!-- Tech Stack Tags -->
+              <div class="project-tech-tags">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+
+              <!-- Key Features -->
+              <div class="project-features">
+                <h4 class="features-heading">Key Features:</h4>
+                <ul class="features-list">
+                  <li>Dynamic DOM task addition, status toggling, and deletion</li>
+                  <li>Local storage persistence across browser reloads</li>
+                  <li>Filter tasks by All, Active, and Completed statuses</li>
+                </ul>
+              </div>
+
+              <!-- Project Buttons -->
+              <div class="project-actions">
+                <a href="https://github.com/[YOUR_GITHUB]/todo-app" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-secondary">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                  GitHub
+                </a>
+                <a href="https://[YOUR_DEMO_LINK].com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                  Live Demo
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Watikolo Event Venue Rental System -->
+          <article class="project-card reveal">
+            <div class="project-img-wrapper">
+              <img src="images/projects/project-venue.svg" alt="Screenshot mockup of Watikolo Event Venue Rental System" class="project-img">
+              <div class="project-overlay-tag">Full-Stack Project</div>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Watikolo Event Venue Rental System</h3>
+              
+              <p class="project-desc">
+                A web-based booking and scheduling platform designed to manage event venue reservations and prevent scheduling conflicts using a time-slot algorithm.
+              </p>
+
+              <!-- Tech Stack Tags -->
+              <div class="project-tech-tags">
+                <span class="tech-tag">HTML/CSS</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">PHP/Laravel</span>
+                <span class="tech-tag">MySQL</span>
+              </div>
+
+              <!-- Key Features -->
+              <div class="project-features">
+                <h4 class="features-heading">Key Features:</h4>
+                <ul class="features-list">
+                  <li>Time-slot collision avoidance algorithm for room bookings</li>
+                  <li>Admin dashboard for booking approvals and customer records</li>
+                  <li>Relational database schema with foreign key constraints</li>
+                </ul>
+              </div>
+
+              <!-- Project Buttons -->
+              <div class="project-actions">
+                <a href="https://github.com/[YOUR_GITHUB]/watikolo-venue-system" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-secondary">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                  GitHub
+                </a>
+                <a href="https://[YOUR_DEMO_LINK].com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                  Live Demo
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Customizable Student Web Project -->
+          <article class="project-card reveal">
+            <div class="project-img-wrapper">
+              <img src="images/projects/project-student.svg" alt="Customizable student project placeholder card" class="project-img">
+              <div class="project-overlay-tag">Academic / Custom</div>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Student Web Project</h3>
+              
+              <p class="project-desc">
+                [A customizable web project placeholder. You can replace this title and description with your coursework project, hackathon entry, or another personal build.]
+              </p>
+
+              <!-- Tech Stack Tags -->
+              <div class="project-tech-tags">
+                <span class="tech-tag">[HTML5]</span>
+                <span class="tech-tag">[CSS3]</span>
+                <span class="tech-tag">[JavaScript]</span>
+                <span class="tech-tag">[Backend / DB]</span>
+              </div>
+
+              <!-- Key Features -->
+              <div class="project-features">
+                <h4 class="features-heading">Key Features:</h4>
+                <ul class="features-list">
+                  <li>[Highlight main feature 1: e.g. Responsive layout & user authentication]</li>
+                  <li>[Highlight main feature 2: e.g. REST API integration or database operations]</li>
+                  <li>[Highlight main feature 3: e.g. Clean UI design and input validation]</li>
+                </ul>
+              </div>
+
+              <!-- Project Buttons -->
+              <div class="project-actions">
+                <a href="https://github.com/[YOUR_GITHUB]/[YOUR_PROJECT_REPO]" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-secondary">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                  GitHub
+                </a>
+                <a href="https://[YOUR_DEMO_LINK].com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                  Live Demo
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- View All Projects Button -->
+        <div class="projects-more reveal">
+          <a href="https://github.com/Ralphyy9yy" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+            <span>View All Projects on GitHub</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============================================================== -->
+    <!-- 6. EDUCATION SECTION                                            -->
+    <!-- =============================================================== -->
+    <section class="education section" id="education">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">Education</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">My academic background and core Computer Science foundations</p>
+        </div>
+
+        <div class="education-card-container reveal">
+          <div class="education-card">
+            <div class="edu-header">
+              <div class="edu-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+              </div>
+              <div class="edu-headline">
+                <h3 class="edu-degree">Bachelor of Science in Computer Science</h3>
+                <p class="edu-school">BOHOL ISLAND STATE UNIVERSITY</p>
+              </div>
+              <span class="edu-year-badge">2023 - 2027</span>
+            </div>
+
+            <div class="edu-body">
+              <h4 class="coursework-title">Relevant Coursework:</h4>
+              <ul class="coursework-tags">
+                <li class="coursework-tag">Web Development</li>
+                <li class="coursework-tag">Database Management</li>
+                <li class="coursework-tag">Operating Systems</li>
+                <li class="coursework-tag">Parallel and Distributed Computing</li>
+                <li class="coursework-tag">Intelligent Systems</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============================================================== -->
+    <!-- 7. EXPERIENCE / ACTIVITIES SECTION                              -->
+    <!-- =============================================================== -->
+    <section class="experience section" id="experience">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">Experience &amp; Activities</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">Academic projects, group software development, and campus tech activities</p>
+        </div>
+
+        <div class="experience-grid">
+          <!-- Item 1: Academic Software Projects -->
+          <div class="experience-card reveal">
+            <div class="exp-icon-box">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+            </div>
+            <h3 class="exp-title">Academic Software Projects</h3>
+            <span class="exp-role">Lead / Contributor • [Coursework Name]</span>
+            <p class="exp-desc">
+              Designed and built web applications implementing clean user interfaces, backend logic, and database schemas in accordance with software design principles.
+            </p>
+          </div>
+
+          <!-- Item 2: Group Development Projects -->
+          <div class="experience-card reveal">
+            <div class="exp-icon-box">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+            </div>
+            <h3 class="exp-title">Group Development Projects</h3>
+            <span class="exp-role">Team Member • Collaborative Coding</span>
+            <p class="exp-desc">
+              Collaborated with fellow students using Git and GitHub for version control, conducting code reviews, resolving merge conflicts, and delivering sprint milestones.
+            </p>
+          </div>
+
+          <!-- Item 3: Research / Thesis Work -->
+          <div class="experience-card reveal">
+            <div class="exp-icon-box">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+            </div>
+            <h3 class="exp-title">Research &amp; Systems Analysis</h3>
+            <span class="exp-role">Undergraduate Researcher</span>
+            <p class="exp-desc">
+              Conducted domain research on scheduling algorithms, user flow optimization, and database normalization for practical software applications.
+            </p>
+          </div>
+
+          <!-- Item 4: Programming Activities & Presentations -->
+          <div class="experience-card reveal">
+            <div class="exp-icon-box">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+            </div>
+            <h3 class="exp-title">Coding Activities &amp; Presentations</h3>
+            <span class="exp-role">Presenter &amp; Participant</span>
+            <p class="exp-desc">
+              Demonstrated application architecture, algorithmic logic, and responsive UI prototypes during departmental tech presentations and project defenses.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============================================================== -->
+    <!-- 8. RESUME SECTION                                               -->
+    <!-- =============================================================== -->
+    <section class="resume section" id="resume">
+      <div class="container">
+        <div class="resume-banner reveal">
+          <div class="resume-content">
+            <h2 class="resume-title">Curriculum Vitae / Resume</h2>
+            <p class="resume-desc">
+              Interested in learning more about my education, skills, and experience?
+            </p>
+            <p class="resume-subtext">
+              View my complete qualifications, coursework, and technical background.
+            </p>
+            <div class="resume-actions">
+              <!-- View Resume in New Tab -->
+              <a href="resume/Ralph_Giann_Suquib_Developer_Resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                View Resume
+              </a>
+              <!-- Download Resume File -->
+              <a href="resume/Ralph_Giann_Suquib_Developer_Resume.pdf" download="Ralph_Giann_Suquib_Developer_Resume.pdf" class="btn btn-secondary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                Download Resume
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============================================================== -->
+    <!-- 9. CONTACT SECTION                                              -->
+    <!-- =============================================================== -->
+    <section class="contact section" id="contact">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">Get In Touch</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">Feel free to reach out for internship opportunities, project collaborations, or a friendly hello!</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left: Contact Information Cards -->
+          <div class="contact-info reveal">
+            <h3 class="contact-info-title">Contact Information</h3>
+            <p class="contact-info-text">
+              I am actively seeking internship opportunities and junior web developer positions. 
+              My inbox is always open.
+            </p>
+
+            <div class="contact-cards">
+              <!-- Email Card -->
+              <a href="mailto:giannralph@gmail.com" class="contact-card">
+                <div class="contact-card-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </div>
+                <div class="contact-card-details">
+                  <span class="contact-card-label">Email</span>
+                  <span class="contact-card-value">giannralph@gmail.com</span>
+                </div>
+              </a>
+
+              <!-- GitHub Card -->
+              <a href="https://github.com/Ralphyy9yy" target="_blank" rel="noopener noreferrer" class="contact-card">
+                <div class="contact-card-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </div>
+                <div class="contact-card-details">
+                  <span class="contact-card-label">GitHub</span>
+                  <span class="contact-card-value">github.com/Ralphyy9yy</span>
+                </div>
+              </a>
+
+              <!-- Facebook Card -->
+              <a href="https://facebook.com/[YOUR_FACEBOOK]" target="_blank" rel="noopener noreferrer" class="contact-card">
+                <div class="contact-card-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                </div>
+                <div class="contact-card-details">
+                  <span class="contact-card-label">Facebook</span>
+                  <span class="contact-card-value">facebook.com/[YOUR_FACEBOOK]</span>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Right: Contact Form -->
+          <div class="contact-form-wrapper reveal">
+            <!-- 
+              NOTE FOR BACKEND INTEGRATION:
+              Currently, this form uses client-side JavaScript validation (script.js).
+              To receive actual emails without building a complex backend server, you can:
+              1. Add an 'action="https://formspree.io/f/YOUR_FORM_ID"' attribute to <form>, OR
+              2. Connect EmailJS (https://www.emailjs.com/) in script.js, OR
+              3. Submit to your custom PHP script (e.g. action="send_mail.php" method="POST").
+            -->
+            <form id="contact-form" class="contact-form" novalidate>
+              <div class="form-group">
+                <label for="name" class="form-label">Your Name <span class="required-star">*</span></label>
+                <input type="text" id="name" name="name" class="form-input" placeholder="e.g. Maria Santos" required>
+                <span class="error-msg" id="name-error"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-label">Your Email <span class="required-star">*</span></label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="e.g. maria@example.com" required>
+                <span class="error-msg" id="email-error"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Your Message <span class="required-star">*</span></label>
+                <textarea id="message" name="message" rows="5" class="form-input form-textarea" placeholder="Write your message or inquiry here..." required></textarea>
+                <span class="error-msg" id="message-error"></span>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-submit">
+                <span>Send Message</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+              </button>
+
+              <!-- Live Submission Feedback Toast -->
+              <div id="form-feedback" class="form-feedback" role="alert" aria-live="polite"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================================================================= -->
+  <!-- 10. FOOTER                                                        -->
+  <!-- ================================================================= -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#home" class="footer-logo">
+            <span>Ralph</span>
+          </a>
+          <p class="footer-tagline">Computer Science Student &amp; Aspiring Web Developer</p>
+        </div>
+
+        <div class="footer-socials">
+          <a href="https://github.com/Ralphyy9yy" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="GitHub">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+          </a>
+          <a href="https://facebook.com/[YOUR_FACEBOOK]" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Facebook">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+          </a>
+          <a href="mailto:giannralph@gmail.com" class="footer-social-link" aria-label="Email">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-divider"></div>
+
+      <div class="footer-bottom">
+        <p class="copyright">
+          &copy; 2026 Ralph. All rights reserved. Designed with Charcoal, Off-White &amp; Sage.
+        </p>
+        <p class="footer-note">Built with HTML5, CSS3 &amp; Vanilla JavaScript</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================================================================= -->
+  <!-- BACK TO TOP BUTTON                                                -->
+  <!-- ================================================================= -->
+  <button id="back-to-top" class="back-to-top" aria-label="Back to top of page" title="Back to top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+  </button>
+
+  <!-- Main JavaScript File -->
+  <script src="js/script.js?v=20261002-static-skills"></script>
+</body>
+</html>
+

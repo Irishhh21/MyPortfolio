@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="venue-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8F9F7" />
+      <stop offset="100%" stop-color="#E8EFEA" />
+    </linearGradient>
+    <filter id="venue-shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#1E232A" flood-opacity="0.08" />
+    </filter>
+  </defs>
+
+  <rect width="600" height="360" fill="url(#venue-bg)" />
+
+  <g transform="translate(60, 35)" filter="url(#venue-shadow)">
+    <!-- Main Window -->
+    <rect width="480" height="290" rx="14" fill="#FFFFFF" stroke="#E2E6E1" stroke-width="1.5" />
+    <!-- Header -->
+    <path d="M0 14 Q0 0 14 0 L466 0 Q480 0 480 14 L480 42 L0 42 Z" fill="#F4F6F4" />
+    <circle cx="24" cy="21" r="5" fill="#CBD5E1" />
+    <circle cx="42" cy="21" r="5" fill="#94A3B8" />
+    <circle cx="60" cy="21" r="5" fill="#769680" />
+    <text x="240" y="26" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="600" fill="#2D3748">Watikolo Venue Rental - Reservation Dashboard</text>
+
+    <!-- Sidebar & Dashboard Grid -->
+    <!-- Mini Sidebar -->
+    <rect x="15" y="55" width="100" height="220" rx="8" fill="#F8F9F7" stroke="#E2E6E1" stroke-width="1" />
+    <rect x="25" y="70" width="80" height="20" rx="4" fill="#769680" />
+    <text x="65" y="84" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="600" fill="#FFFFFF">Schedule</text>
+    <rect x="25" y="100" width="80" height="20" rx="4" fill="none" />
+    <text x="65" y="114" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#556070">Venues</text>
+    <rect x="25" y="130" width="80" height="20" rx="4" fill="none" />
+    <text x="65" y="144" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#556070">Bookings</text>
+    <rect x="25" y="160" width="80" height="20" rx="4" fill="none" />
+    <text x="65" y="174" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#556070">Reports</text>
+
+    <!-- Calendar / Time-slot grid -->
+    <rect x="128" y="55" width="337" height="100" rx="8" fill="#FFFFFF" stroke="#E2E6E1" stroke-width="1" />
+    <text x="142" y="76" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#1E232A">Venue A - Grand Pavilion Schedule</text>
+    <rect x="365" y="65" width="90" height="20" rx="10" fill="#EBF3ED" />
+    <text x="410" y="78" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="9" font-weight="600" fill="#375340">● No Conflict</text>
+
+    <!-- Slots -->
+    <rect x="142" y="90" width="90" height="50" rx="6" fill="#EFF4F0" stroke="#CBD8CF" stroke-width="1" />
+    <text x="187" y="110" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="9" font-weight="700" fill="#2E4435">08:00 - 12:00</text>
+    <text x="187" y="125" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="8" fill="#4B6A54">Reserved</text>
+
+    <rect x="245" y="90" width="90" height="50" rx="6" fill="#FFFFFF" stroke="#E2E6E1" stroke-width="1" stroke-dasharray="3 3" />
+    <text x="290" y="110" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="9" font-weight="700" fill="#556070">13:00 - 17:00</text>
+    <text x="290" y="125" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="8" fill="#2E7D32">Available</text>
+
+    <rect x="348" y="90" width="107" height="50" rx="6" fill="#EFF4F0" stroke="#CBD8CF" stroke-width="1" />
+    <text x="401" y="110" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="9" font-weight="700" fill="#2E4435">18:00 - 22:00</text>
+    <text x="401" y="125" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="8" fill="#4B6A54">Reserved</text>
+
+    <!-- Bottom Stats / Analytics -->
+    <rect x="128" y="165" width="162" height="110" rx="8" fill="#F8F9F7" stroke="#E2E6E1" stroke-width="1" />
+    <text x="142" y="188" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="600" fill="#556070">Time-Slot Algorithm</text>
+    <path d="M142 245 L175 220 L210 235 L245 200 L275 210" fill="none" stroke="#769680" stroke-width="2.5" stroke-linecap="round" />
+    <circle cx="245" cy="200" r="3.5" fill="#375340" />
+
+    <rect x="303" y="165" width="162" height="110" rx="8" fill="#F8F9F7" stroke="#E2E6E1" stroke-width="1" />
+    <text x="317" y="188" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="600" fill="#556070">Booking Status</text>
+    <text x="317" y="215" font-family="'Segoe UI', sans-serif" font-size="22" font-weight="800" fill="#1E232A">98.4%</text>
+    <text x="317" y="235" font-family="'Segoe UI', sans-serif" font-size="9" fill="#5A6472">Conflict Prevention Rate</text>
+    <rect x="317" y="248" width="130" height="6" rx="3" fill="#D5E0D8" />
+    <rect x="317" y="248" width="118" height="6" rx="3" fill="#769680" />
+  </g>
+</svg>
